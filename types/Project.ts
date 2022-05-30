@@ -6,4 +6,5 @@ export type Project = {
   screenshotURL: string
   repositoryUrl: string
   description: string
+  tags: string[]
 }

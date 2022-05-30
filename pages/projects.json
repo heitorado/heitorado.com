@@ -6,7 +6,8 @@
     "previewUrl": "https://www.guava-inn.heitorado.com",
     "repositoryUrl": "https://www.github.com/heitorado/guava-inn",
     "screenshotURL": "https://picsum.photos/600/300",
-    "description": "Inn reservation app made with Ruby on Rails for a job interview challenge. It features a basic CRUD on reservations with some interesting special validation logic. I also took a shot at making it prettier than just raw HTML and thought it turned out very nice. The development process was fully described in one of the READMEs at the project repository"
+    "description": "Inn reservation app made with Ruby on Rails for a job interview challenge. It features a basic CRUD on reservations with some interesting special validation logic. I also took a shot at making it prettier than just raw HTML and thought it turned out very nice. The development process was fully described in one of the READMEs at the project repository",
+    "tags": ["back end", "front end"]
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "previewUrl": "https://www.comics.heitorado.com",
     "repositoryUrl": "https://www.github.com/heitorado/comics-app-challenge",
     "screenshotURL": "https://picsum.photos/600/300",
-    "description": "Comic book listing app made with Ruby on Rails for a job interview challenge. It features a list with pagination of Marvel's comics, consumed from their API, and the option to mark comics as favorite. I received the screenshot and a description of the required behaviors and had to develop it accordingly. It was a different experience with Rails, where the focus was at the service layer and external data consumption."
+    "description": "Comic book listing app made with Ruby on Rails for a job interview challenge. It features a list with pagination of Marvel's comics, consumed from their API, and the option to mark comics as favorite. I received the screenshot and a description of the required behaviors and had to develop it accordingly. It was a different experience with Rails, where the focus was at the service layer and external data consumption.",
+    "tags": ["back end", "front end"]
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "previewUrl": "https://www.example.com",
     "repositoryUrl": "https://www.github.com",
     "screenshotURL": "https://picsum.photos/600/300",
-    "description": "Lorem ipsum dolor sit amet"
+    "description": "Lorem ipsum dolor sit amet",
+    "tags": ["graphql"]
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "previewUrl": "https://www.example.com",
     "repositoryUrl": "https://www.github.com",
     "screenshotURL": "https://picsum.photos/600/300",
-    "description": "Lorem ipsum dolor sit amet"
+    "description": "Lorem ipsum dolor sit amet",
+    "tags": ["ionic", "lottie"]
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@
     "previewUrl": "https://www.example.com",
     "repositoryUrl": "https://www.github.com",
     "screenshotURL": "https://picsum.photos/600/300",
-    "description": "Lorem ipsum dolor sit amet"
+    "description": "Lorem ipsum dolor sit amet",
+    "tags": ["front end", "next.js", "aws"]
   }
   
 ]
