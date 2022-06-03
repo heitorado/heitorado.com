@@ -47,4 +47,21 @@ const Home: NextPage = () => {
   )
 }
 
+export async function getStaticProps() {
+  // const res = await fetch('url', { 
+  //     method: "GET",
+  //     headers: {
+  //       "Content-Type": "application/json"
+  //     },
+  //   }
+  // )
+  // const projects = await res.json()
+
+  return {
+    props: {
+      projects: sampleProjectData
+    }
+  }
+}
+
 export default Home
