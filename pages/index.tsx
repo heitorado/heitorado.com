@@ -1,3 +1,4 @@
+import styles from '../styles/index.module.css'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -19,21 +20,17 @@ const Home: NextPage<Props> = ({ projects }: Props) => {
       </Head>
 
       <main className="min-h-screen py-16 px-0 flex-1 flex flex-col justify-center items-center">
-        <h1 className="m-0 text-6xl">
-          Heitor Carvalho
-        </h1>
+        <div className='flex flex-col items-center w-4/12'>
+          <h1 className={`text-6xl ${styles['nerd-font-rg']}`}>
+            Heitor Carvalho
+          </h1>
 
-        <h2 className="m-0 text-4xl text-opacity-60 text-slate-700">
-          software is all about people.
-        </h2>
+          <h2 className={`mt-0 mb-0 text-3xl font-mono ${styles['nerd-font-lt']}`}>
+            software is all about people
+            <span className={styles['character-blink-animation']}>_</span>
+          </h2>
+        </div>
 
-        <p className="my-8 mx-0 text-2xl">
-          Get started by editing{' '}
-          <code>pages/index.tsx</code>
-        </p>
-
-        <div className="flex items-center justify-center flex-wrap max-w-3xl">
-         
 
         <div className="flex items-center justify-center flex-wrap max-w-4xl">
           {projects.map((project) => <Card key={project.id} project={project}/>)}

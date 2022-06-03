@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap");
+
+.nerd-font-lt {
+  font-family: "Fira Code", monospace;
+  font-weight: 300;
+}
+
+.nerd-font-rg {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+}
+
+.character-blink-animation {
+  animation: 0.5s terminal-pulse step-end infinite;
+  animation-play-state: running;
+}
+
+@keyframes terminal-pulse {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: inherit;
+  }
+  100% {
+    color: transparent;
+  }
+}
