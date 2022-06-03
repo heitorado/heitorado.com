@@ -1,8 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import type { Project } from '../types'
+import sampleProjectData from './projects.json'
+import Card from '../components/Card'
 
-const Home: NextPage = () => {
+type Props = {
+  projects: Project[]
+}
+
+const Home: NextPage<Props> = ({ projects }: Props) => {
   return (
     <div className="py-0 px-8">
       <Head>
@@ -28,6 +35,8 @@ const Home: NextPage = () => {
         <div className="flex items-center justify-center flex-wrap max-w-3xl">
          
 
+        <div className="flex items-center justify-center flex-wrap max-w-4xl">
+          {projects.map((project) => <Card key={project.id} project={project}/>)}
         </div>
       </main>
 
