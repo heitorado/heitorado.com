@@ -5,6 +5,7 @@ import Image from 'next/image'
 import type { Project } from '../types'
 import sampleProjectData from './projects.json'
 import Card from '../components/Card'
+import Navbar from  '../components/Navbar'
 
 type Props = {
   projects: Project[]
@@ -29,6 +30,7 @@ const Home: NextPage<Props> = ({ projects }: Props) => {
             software is all about people
             <span className={styles['character-blink-animation']}>_</span>
           </h2>
+          <Navbar/>
         </div>
 
 
