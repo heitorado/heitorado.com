@@ -26,7 +26,7 @@
     "previewUrl": "https://github.com/heitorado/haskong",
     "repositoryUrl": "https://github.com/heitorado/haskong",
     "screenshotURL": "/images/haskong_screenshot.png",
-    "description": "Simple pong game written in Haskell. Final project of functional programming class",
+    "description": "Simple pong game written in Haskell. Final project developed at functional programming II course",
     "tags": ["functional", "game", "college"]
   },
   {
@@ -36,7 +36,7 @@
     "previewUrl": "https://github.com/heitorado/nlp-chatbot",
     "repositoryUrl": "https://github.com/heitorado/nlp-chatbot",
     "screenshotURL": "/images/rasa_nlp_chatbot_screenshot.png",
-    "description": "Lorem ipsum dolor sit amet",
+    "description": "Chatbot developed and trained using the RASA framework, for the natural language processing course. You can talk to it using natural language and it can give you movie recommendations via Telegram bot",
     "tags": ["rasa", "nlp", "college"]
   },
   {
